@@ -1,4 +1,4 @@
-package com.platform45;
+package com.platform45.marsrover;
 
 public class Main {
 
