@@ -2,15 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2438161e-a8e0-4f2b-8fb8-3d04d4ebeb05" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test/com/platform45/marsrover/MainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/platform45/marsrover/Grid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/platform45/marsrover/Position.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/platform45/marsrover/Rover.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/platform45/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/platform45/marsrover/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -82,6 +89,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ljvan\Documents\Sandra's stuff\Job Option Info\Platform45\MarsRover" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ljvan\Documents\Sandra's stuff\Job Option Info\Platform45\MarsRover\test\com\platform45\marsrover" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -116,5 +126,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
