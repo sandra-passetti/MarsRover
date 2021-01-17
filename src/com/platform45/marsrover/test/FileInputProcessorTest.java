@@ -21,6 +21,29 @@ public class FileInputProcessorTest {
         assertEquals(3, actualPosition.getY_Coordinate());
         assertEquals('N', actualPosition.getOrientation());
         assertEquals(1, rovers.get(0).getIdentifier());
+
+        Position actualPosition2 = rovers.get(1).getPosition();
+        assertEquals(5, actualPosition2.getX_Coordinate());
+        assertEquals(1, actualPosition2.getY_Coordinate());
+        assertEquals('E', actualPosition2.getOrientation());
+        assertEquals(2, rovers.get(1).getIdentifier());
+    }
+
+    @Test
+    public void testProcessFileForValidInputOriginal() throws IOException {
+        ArrayList<Rover> rovers = FileInputProcessor.processFile("./resources/validInputOriginal.txt");
+        assertEquals(2, rovers.size());
+        Position actualPosition = rovers.get(0).getPosition();
+        assertEquals(6, actualPosition.getX_Coordinate());
+        assertEquals(2, actualPosition.getY_Coordinate());
+        assertEquals('E', actualPosition.getOrientation());
+        assertEquals(1, rovers.get(0).getIdentifier());
+
+        Position actualPosition2 = rovers.get(1).getPosition();
+        assertEquals(7, actualPosition2.getX_Coordinate());
+        assertEquals(1, actualPosition2.getY_Coordinate());
+        assertEquals('S', actualPosition2.getOrientation());
+        assertEquals(2, rovers.get(1).getIdentifier());
     }
 
     @Test(expected = IllegalArgumentException.class)
