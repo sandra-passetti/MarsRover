@@ -8,8 +8,8 @@ package com.platform45.marsrover.main;
 public class Grid {
     private final int min_x_coordinate = 0;
     private final int min_y_coordinate = 0;
-    private int max_x_coordinate;
-    private int max_y_coordinate;
+    private final int max_x_coordinate;
+    private final int max_y_coordinate;
 
     public Grid(int max_x_coordinate, int max_y_coordinate) {
         this.max_x_coordinate = max_x_coordinate;
@@ -17,14 +17,10 @@ public class Grid {
     }
 
     public boolean validateCoordinates(int x_coordinate, int y_coordinate) {
-        if (x_coordinate >= min_x_coordinate
+        return x_coordinate >= min_x_coordinate
                 && x_coordinate <= max_x_coordinate
                 && y_coordinate >= min_y_coordinate
-                && y_coordinate <= max_y_coordinate ) {
-            return true;
-        } else {
-            return false;
-        }
+                && y_coordinate <= max_y_coordinate;
     }
 
 

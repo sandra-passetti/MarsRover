@@ -1,6 +1,5 @@
 package com.platform45.marsrover.main;
 
-import java.io.IOException;
 import java.util.ArrayList;
 
 /**

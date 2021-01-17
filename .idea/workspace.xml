@@ -123,7 +123,7 @@
       <recent name="com.platform45.marsrover.test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FileInputProcessorTest.testProcessFileForInvalidFileFormat">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.platform45.marsrover.main.Main" />
       <module name="MarsRover" />
@@ -211,11 +211,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.FileInputProcessorTest.testProcessFileForInvalidFileFormat" />
         <item itemvalue="JUnit.FileInputProcessorTest.testProcessFileForInvalidStartingPosition" />
         <item itemvalue="JUnit.FileInputProcessorTest.testProcessFileForInvalidMovement" />
         <item itemvalue="JUnit.FileInputProcessorTest.testProcessFileForInvalidGrid" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>

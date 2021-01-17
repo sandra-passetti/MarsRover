@@ -10,7 +10,7 @@ public class Position {
     private int x_coordinate;
     private int y_coordinate;
     private char orientation; //Todo introduce constants for N,S,W,E
-    private Grid grid;
+    private final Grid grid;
     
     public Position(int x_coordinate, int y_coordinate, char orientation, Grid grid) {
         this.x_coordinate = x_coordinate;
