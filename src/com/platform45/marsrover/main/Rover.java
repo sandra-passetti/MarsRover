@@ -6,9 +6,11 @@ import com.platform45.marsrover.main.Position;
  * The rover, which has a position on a grid representing a spot in the physical space of a plateau on Mars.
  */
 public class Rover {
+    private int identifier;
     private Position position;
 
-    public Rover(Position initialPosition) {
+    public Rover(int identifier, Position initialPosition) {
+        this.identifier = identifier;
         position = initialPosition;
     }
 
@@ -18,5 +20,9 @@ public class Rover {
 
     public void setPosition(Position newPosition){
         position = newPosition;
+    }
+
+    public int getIdentifier(){
+        return identifier;
     }
 }
