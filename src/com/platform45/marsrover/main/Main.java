@@ -4,12 +4,10 @@ import java.util.ArrayList;
 
 /**
  * This is the entry point for the Mars Rover implementation built by Sandra Passetti for Platform45. For more information
- * on the Mars Rover challenge, please see https://code.google.com/archive/p/marsrovertechchallenge/ for more information.
+ * on the Mars Rover challenge, please see https://code.google.com/archive/p/marsrovertechchallenge/.
  *
  * Main will take an input file and print out the final rover positions based on the initial positions and movements
  * specified in the file.
- *
- * @param args Args must contain one or more files to use as input..
  */
 public class Main {
 

@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2438161e-a8e0-4f2b-8fb8-3d04d4ebeb05" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/platform45/marsrover/main/FileInputProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/platform45/marsrover/main/FileInputProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/platform45/marsrover/main/Grid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/platform45/marsrover/main/Grid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/platform45/marsrover/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/platform45/marsrover/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/platform45/marsrover/main/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/platform45/marsrover/main/Position.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/platform45/marsrover/main/Rover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/platform45/marsrover/main/Rover.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
