@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2438161e-a8e0-4f2b-8fb8-3d04d4ebeb05" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/resources/stressTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/stressTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/smallGridManyMoves.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/platform45/marsrover/main/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/platform45/marsrover/main/Position.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,17 +122,32 @@
       <recent name="com.platform45.marsrover.test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FileInputProcessorTest.testForLongMovementStringAndBigGrid">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.platform45.marsrover.main.Main" />
       <module name="MarsRover" />
-      <option name="PROGRAM_PARAMETERS" value="./resources/stressTest.txt" />
+      <option name="PROGRAM_PARAMETERS" value="./resources/smallGridManyMoves.txt" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.platform45.marsrover.main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileInputProcessorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MarsRover" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.platform45.marsrover.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.platform45.marsrover.test" />
+      <option name="MAIN_CLASS_NAME" value="com.platform45.marsrover.test.FileInputProcessorTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -151,7 +168,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileInputProcessorTest.testProcessFileForInvalidFileFormat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GridTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MarsRover" />
       <extension name="coverage">
         <pattern>
@@ -160,14 +177,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.platform45.marsrover.test" />
-      <option name="MAIN_CLASS_NAME" value="com.platform45.marsrover.test.FileInputProcessorTest" />
-      <option name="METHOD_NAME" value="testProcessFileForInvalidFileFormat" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="com.platform45.marsrover.test.GridTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileInputProcessorTest.testProcessFileForValidInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PositionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MarsRover" />
       <extension name="coverage">
         <pattern>
@@ -176,43 +192,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.platform45.marsrover.test" />
-      <option name="MAIN_CLASS_NAME" value="com.platform45.marsrover.test.FileInputProcessorTest" />
-      <option name="METHOD_NAME" value="testProcessFileForValidInput" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FileInputProcessorTest.testProcessFileForValidInputOriginal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MarsRover" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.platform45.marsrover.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.platform45.marsrover.test" />
-      <option name="MAIN_CLASS_NAME" value="com.platform45.marsrover.test.FileInputProcessorTest" />
-      <option name="METHOD_NAME" value="testProcessFileForValidInputOriginal" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="com.platform45.marsrover.test.PositionTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.FileInputProcessorTest.testProcessFileForInvalidFileFormat" />
-      <item itemvalue="JUnit.FileInputProcessorTest.testProcessFileForValidInputOriginal" />
-      <item itemvalue="JUnit.FileInputProcessorTest.testProcessFileForValidInput" />
       <item itemvalue="JUnit.FileInputProcessorTest.testForLongMovementStringAndBigGrid" />
+      <item itemvalue="JUnit.FileInputProcessorTest" />
+      <item itemvalue="JUnit.PositionTest" />
+      <item itemvalue="JUnit.GridTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FileInputProcessorTest.testForLongMovementStringAndBigGrid" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.FileInputProcessorTest.testProcessFileForValidInputOriginal" />
-        <item itemvalue="JUnit.FileInputProcessorTest.testProcessFileForValidInput" />
-        <item itemvalue="JUnit.FileInputProcessorTest.testProcessFileForInvalidFileFormat" />
+        <item itemvalue="JUnit.GridTest" />
+        <item itemvalue="JUnit.PositionTest" />
+        <item itemvalue="JUnit.FileInputProcessorTest" />
+        <item itemvalue="JUnit.FileInputProcessorTest.testForLongMovementStringAndBigGrid" />
       </list>
     </recent_temporary>
   </component>

@@ -11,8 +11,13 @@ import java.util.regex.Pattern;
 public class Position {
     private int x_coordinate;
     private int y_coordinate;
-    private char orientation; //Todo introduce constants for N,S,W,E
+    private char orientation;
     private final Grid grid;
+
+    private final char NORTH = 'N';
+    private final char SOUTH = 'S';
+    private final char EAST = 'E';
+    private final char WEST = 'W';
 
     /**
      * Constructor for position.
@@ -47,35 +52,35 @@ public class Position {
     }
 
     private void rotateOrientationLeft(){
-        if (orientation == 'N') {
-            orientation = 'W';
-        } else if (orientation == 'W') {
-            orientation = 'S';
-        } else if (orientation == 'S') {
-            orientation = 'E';
+        if (orientation == NORTH) {
+            orientation = WEST;
+        } else if (orientation == WEST) {
+            orientation = SOUTH;
+        } else if (orientation == SOUTH) {
+            orientation = EAST;
         } else {
-            orientation = 'N';
+            orientation = NORTH;
         }
     }
 
     private void rotateOrientationRight(){
-        if (orientation == 'N') {
-            orientation = 'E';
-        } else if (orientation == 'E') {
-            orientation = 'S';
-        } else if (orientation == 'S') {
-            orientation = 'W';
+        if (orientation == NORTH) {
+            orientation = EAST;
+        } else if (orientation == EAST) {
+            orientation = SOUTH;
+        } else if (orientation == SOUTH) {
+            orientation = WEST;
         } else {
-            orientation = 'N';
+            orientation = NORTH;
         }
     }
 
     private void moveForward(){
-        if (orientation == 'N') {
+        if (orientation == NORTH) {
             y_coordinate += 1;
-        } else if (orientation == 'S') {
+        } else if (orientation == SOUTH) {
             y_coordinate -= 1;
-        } else if (orientation == 'W') {
+        } else if (orientation == WEST) {
             x_coordinate -= 1;
         } else {
             x_coordinate += 1;
