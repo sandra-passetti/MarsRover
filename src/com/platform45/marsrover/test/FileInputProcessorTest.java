@@ -46,6 +46,17 @@ public class FileInputProcessorTest {
         assertEquals(2, rovers.get(1).getIdentifier());
     }
 
+    @Test
+    public void testForLongMovementStringAndBigGrid() throws IOException {
+        ArrayList<Rover> rovers = FileInputProcessor.processFile("./resources/stressTest.txt");
+        assertEquals(1, rovers.size());
+        Position actualPosition = rovers.get(0).getPosition();
+        assertEquals(32, actualPosition.getX_Coordinate());
+        assertEquals(64, actualPosition.getY_Coordinate());
+        assertEquals('N', actualPosition.getOrientation());
+        assertEquals(1, rovers.get(0).getIdentifier());
+    }
+
     @Test(expected = IllegalArgumentException.class)
     public void testProcessFileForInvalidGrid() throws IOException {
         FileInputProcessor.processFile("./resources/invalidGrid.txt");
