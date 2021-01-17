@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2438161e-a8e0-4f2b-8fb8-3d04d4ebeb05" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/platform45/marsrover/main/FileInputProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/platform45/marsrover/main/FileInputProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/platform45/marsrover/main/Rover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/platform45/marsrover/main/Rover.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/platform45/marsrover/test/FileInputProcessorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/platform45/marsrover/test/FileInputProcessorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/platform45/marsrover/test/PositionTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,8 +104,11 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.platform45.marsrover" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.platform45.marsrover.test" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.FileInputProcessorTest.testProcessFileForValidInput">
+  <component name="RunManager" selected="JUnit.PositionTest.testCalculateNewPosition">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.platform45.marsrover.main.Main" />
       <module name="MarsRover" />
@@ -151,8 +151,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PositionTest.testCalculateNewPosition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MarsRover" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.platform45.marsrover.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.platform45.marsrover.test" />
+      <option name="MAIN_CLASS_NAME" value="com.platform45.marsrover.test.PositionTest" />
+      <option name="METHOD_NAME" value="testCalculateNewPosition" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PositionTest.testCalculateNewPosition" />
         <item itemvalue="JUnit.FileInputProcessorTest.testProcessFileForValidInput" />
         <item itemvalue="JUnit.FileInputProcessorTest.test_JUnit" />
         <item itemvalue="Application.Main" />
