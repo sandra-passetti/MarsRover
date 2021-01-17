@@ -1,8 +1,7 @@
 package com.platform45.marsrover.main;
 
-import com.platform45.marsrover.main.FileInputProcessor;
-
 import java.io.IOException;
+import java.util.ArrayList;
 
 /**
  * See https://code.google.com/archive/p/marsrovertechchallenge/ for more information.
@@ -11,11 +10,19 @@ public class Main {
 
     public static void main(String[] args) {
         try {
+            ArrayList<Rover> rovers = new ArrayList<>();
             for (String arg: args) {
-                FileInputProcessor.processFile(arg);
+                rovers = FileInputProcessor.processFile(arg);
             }
-        } catch (IOException ioException) {
 
+            for (Rover rover: rovers) {
+                System.out.println("Rover #" + rover.getIdentifier()+ " is at position "
+                        + rover.getPosition().getX_Coordinate() + " "
+                        + rover.getPosition().getY_Coordinate() + " "
+                        + rover.getPosition().getOrientation());
+            }
+        } catch (Exception ex) {
+            System.err.println(ex.getMessage());
         }
     }
 }

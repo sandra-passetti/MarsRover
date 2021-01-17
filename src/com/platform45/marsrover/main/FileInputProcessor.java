@@ -8,11 +8,6 @@ import java.util.List;
 
 public class FileInputProcessor {
 
-    private boolean validateGridInput(String input) {
-        String[] gridCoordinates = input.split("[ ]");
-        return gridCoordinates.length == 2;
-    }
-
     public static ArrayList<Rover> processFile(String fileLocation) throws IOException {
         ArrayList<Rover> rovers = new ArrayList<>();
 
@@ -49,6 +44,7 @@ public class FileInputProcessor {
             Position initialRoverPosition = new Position(tmp_x, tmp_y, tmp_orientation, grid );
             Position updatedRoverPosition = initialRoverPosition.calculateNewPosition(instructions.get(i+1));
             rovers.add(new Rover(roverCount, updatedRoverPosition));
+            roverCount++;
         }
 
         return rovers;
