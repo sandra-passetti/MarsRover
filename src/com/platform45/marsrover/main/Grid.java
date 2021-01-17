@@ -1,4 +1,4 @@
-package com.platform45.marsrover;
+package com.platform45.marsrover.main;
 
 /**
  * The grid defines the boundaries within which a rover can move (all valid positions must occur inside the grid).

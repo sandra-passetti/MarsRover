@@ -1,4 +1,4 @@
-package com.platform45.marsrover;
+package com.platform45.marsrover.main;
 
 /**
  * ToDo
