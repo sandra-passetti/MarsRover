@@ -6,6 +6,14 @@ import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * This class is responsible for processing the input file at the specified location. It will use the following rules to
+ * ensure that the input is valid:
+ * 1. The file must have at least 3 lines
+ * 2. The first line in the file must have 2 integers, separated by a space
+ * 3. The rest of the lines in the file must occur in pairs, where the first item indicates the initial position of the rover
+ *  and the second item indicates the movements the rover should make.
+ */
 public class FileInputProcessor {
 
     public static ArrayList<Rover> processFile(String fileLocation) throws IOException {

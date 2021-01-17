@@ -4,14 +4,23 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
- * ToDo
+ * The Position class tracks the coordination and orientation of an object on a specified grid. This class also facilitates
+ * movement within the grid, by accepting commands to rotate left and right; and to move forward one space in the current
+ * orientation.
  */
 public class Position {
     private int x_coordinate;
     private int y_coordinate;
     private char orientation; //Todo introduce constants for N,S,W,E
     private final Grid grid;
-    
+
+    /**
+     * Constructor for position.
+     * @param x_coordinate The horizontal coordinate indicating position on the grid.
+     * @param y_coordinate The vertical coordinate indicating position on the grid.
+     * @param orientation Must be a single character from the set {N, E, S, W}.
+     * @param grid The grid relative to which position is being specified.
+     */
     public Position(int x_coordinate, int y_coordinate, char orientation, Grid grid) {
         this.x_coordinate = x_coordinate;
         this.y_coordinate = y_coordinate;

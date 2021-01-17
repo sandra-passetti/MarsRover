@@ -1,10 +1,10 @@
 package com.platform45.marsrover.main;
 
 /**
- * The rover, which has a position on a grid representing a spot in the physical space of a plateau on Mars.
+ * The rover, which has a position on a grid representing its spot in the physical space of a plateau on Mars.
  */
 public class Rover {
-    private int identifier;
+    private final int identifier;
     private Position position;
 
     public Rover(int identifier, Position initialPosition) {

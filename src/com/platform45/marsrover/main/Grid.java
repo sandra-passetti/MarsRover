@@ -2,7 +2,7 @@ package com.platform45.marsrover.main;
 
 /**
  * The grid defines the boundaries within which a rover can move (all valid positions must occur inside the grid).
- * The lower left coordinates on the grid is always designated as 0,0 (x_coordinate, y_coordinate).
+ * The lower left coordinates on the grid are always designated as 0,0 (x_coordinate, y_coordinate).
  * The upper right coordinates on the grid must be supplied. A valid example would be 5,5 (x_coordinate, y_coordinate).
  */
 public class Grid {
