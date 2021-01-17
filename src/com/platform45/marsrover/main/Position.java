@@ -7,16 +7,28 @@ import java.util.regex.Pattern;
  * ToDo
  */
 public class Position {
-    private int x_position;
-    private int y_position;
+    private int x_coordinate;
+    private int y_coordinate;
     private char orientation; //Todo introduce constants for N,S,W,E
     private Grid grid;
     
-    public Position(int x_position, int y_position, char orientation, Grid grid) {
-        this.x_position = x_position;
-        this.y_position = y_position;
+    public Position(int x_coordinate, int y_coordinate, char orientation, Grid grid) {
+        this.x_coordinate = x_coordinate;
+        this.y_coordinate = y_coordinate;
         this.orientation = orientation;
         this.grid = grid;
+    }
+
+    public int getX_Coordinate() {
+        return x_coordinate;
+    }
+
+    public int getY_Coordinate() {
+        return y_coordinate;
+    }
+
+    public char getOrientation() {
+        return orientation;
     }
 
     private boolean areCommandsValid(String movements){
@@ -51,13 +63,13 @@ public class Position {
 
     private void moveForward(){
         if (orientation == 'N') {
-            y_position += 1;
+            y_coordinate += 1;
         } else if (orientation == 'S') {
-            y_position -= 1;
+            y_coordinate -= 1;
         } else if (orientation == 'W') {
-            x_position -= 1;
+            x_coordinate -= 1;
         } else {
-            x_position += 1;
+            x_coordinate += 1;
         }
     }
 
@@ -76,7 +88,7 @@ public class Position {
             }
             //check that new positions are within map
             //return new position
-            return new Position(x_position,y_position,orientation, grid);
+            return new Position(x_coordinate, y_coordinate,orientation, grid);
         } else {
             throw new IllegalArgumentException("Invalid movement sequence provided as input. Please correct your inputs and try again");
         }

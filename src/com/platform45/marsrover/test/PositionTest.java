@@ -1,14 +1,8 @@
 package com.platform45.marsrover.test;
 
-import com.platform45.marsrover.main.FileInputProcessor;
 import com.platform45.marsrover.main.Grid;
 import com.platform45.marsrover.main.Position;
-import com.platform45.marsrover.main.Rover;
 import org.junit.Test;
-
-import java.io.IOException;
-import java.util.ArrayList;
-
 import static org.junit.Assert.assertEquals;
 
 public class PositionTest {
@@ -19,8 +13,9 @@ public class PositionTest {
         Position startingPosition = new Position(1,2, 'N',grid);
         String moveCommands = "LMLMLMLMM";
         Position newPosition = startingPosition.calculateNewPosition(moveCommands);
-        Position expectedPosition = new Position(1,3,'N',grid);
-        assertEquals(expectedPosition, newPosition);
+        assertEquals(1, newPosition.getX_Coordinate());
+        assertEquals(3, newPosition.getY_Coordinate());
+        assertEquals('N', newPosition.getOrientation());
     }
 
     @Test(expected = IllegalArgumentException.class)
