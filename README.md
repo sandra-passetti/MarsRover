@@ -25,3 +25,6 @@ written on it. This opens a menu.
 5. Click Apply and close the popup.
 6. Run Main using the green play button.
 
+#Testing
+This implementation has been tested to work with multiple rovers,
+large grids (e.g. 1000 , 1000) and long sequences of moves (350+).
