@@ -7,10 +7,8 @@
     <list default="true" id="2438161e-a8e0-4f2b-8fb8-3d04d4ebeb05" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MarsRover/com/platform45/marsrover/main/FileInputProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MarsRover/com/platform45/marsrover/main/FileInputProcessor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MarsRover/com/platform45/marsrover/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MarsRover/com/platform45/marsrover/main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MarsRover/com/platform45/marsrover/main/Rover.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MarsRover/com/platform45/marsrover/main/Rover.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/platform45/marsrover/main/FileInputProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/platform45/marsrover/main/FileInputProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/platform45/marsrover/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/platform45/marsrover/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MarsRover/com/platform45/marsrover/test/FileInputProcessorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MarsRover/com/platform45/marsrover/test/FileInputProcessorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/platform45/marsrover/test/FileInputProcessorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/platform45/marsrover/test/FileInputProcessorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +123,7 @@
       <recent name="com.platform45.marsrover.test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.FileInputProcessorTest.testProcessFileForInvalidFileFormat">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.platform45.marsrover.main.Main" />
       <module name="MarsRover" />
@@ -140,7 +138,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileInputProcessorTest.testProcessFileForValidInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FileInputProcessorTest.testProcessFileForInvalidFileFormat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MarsRover" />
       <extension name="coverage">
         <pattern>
@@ -150,13 +148,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.platform45.marsrover.test" />
       <option name="MAIN_CLASS_NAME" value="com.platform45.marsrover.test.FileInputProcessorTest" />
-      <option name="METHOD_NAME" value="testProcessFileForValidInput" />
+      <option name="METHOD_NAME" value="testProcessFileForInvalidFileFormat" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GridTest.testValidateCoordinates" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FileInputProcessorTest.testProcessFileForInvalidGrid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MarsRover" />
       <extension name="coverage">
         <pattern>
@@ -165,14 +163,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.platform45.marsrover.test" />
-      <option name="MAIN_CLASS_NAME" value="com.platform45.marsrover.test.GridTest" />
-      <option name="METHOD_NAME" value="testValidateCoordinates" />
+      <option name="MAIN_CLASS_NAME" value="com.platform45.marsrover.test.FileInputProcessorTest" />
+      <option name="METHOD_NAME" value="testProcessFileForInvalidGrid" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GridTest.testValidateCoordinatesWithNegativeExample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FileInputProcessorTest.testProcessFileForInvalidMovement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MarsRover" />
       <extension name="coverage">
         <pattern>
@@ -181,14 +179,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.platform45.marsrover.test" />
-      <option name="MAIN_CLASS_NAME" value="com.platform45.marsrover.test.GridTest" />
-      <option name="METHOD_NAME" value="testValidateCoordinatesWithNegativeExample" />
+      <option name="MAIN_CLASS_NAME" value="com.platform45.marsrover.test.FileInputProcessorTest" />
+      <option name="METHOD_NAME" value="testProcessFileForInvalidMovement" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PositionTest.testCalculateNewPositionMovingOffMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FileInputProcessorTest.testProcessFileForInvalidStartingPosition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MarsRover" />
       <extension name="coverage">
         <pattern>
@@ -197,8 +195,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.platform45.marsrover.test" />
-      <option name="MAIN_CLASS_NAME" value="com.platform45.marsrover.test.PositionTest" />
-      <option name="METHOD_NAME" value="testCalculateNewPositionMovingOffMap" />
+      <option name="MAIN_CLASS_NAME" value="com.platform45.marsrover.test.FileInputProcessorTest" />
+      <option name="METHOD_NAME" value="testProcessFileForInvalidStartingPosition" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -206,18 +204,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.FileInputProcessorTest.testProcessFileForValidInput" />
-      <item itemvalue="JUnit.GridTest.testValidateCoordinates" />
-      <item itemvalue="JUnit.GridTest.testValidateCoordinatesWithNegativeExample" />
-      <item itemvalue="JUnit.PositionTest.testCalculateNewPositionMovingOffMap" />
+      <item itemvalue="JUnit.FileInputProcessorTest.testProcessFileForInvalidGrid" />
+      <item itemvalue="JUnit.FileInputProcessorTest.testProcessFileForInvalidMovement" />
+      <item itemvalue="JUnit.FileInputProcessorTest.testProcessFileForInvalidStartingPosition" />
+      <item itemvalue="JUnit.FileInputProcessorTest.testProcessFileForInvalidFileFormat" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FileInputProcessorTest.testProcessFileForInvalidFileFormat" />
+        <item itemvalue="JUnit.FileInputProcessorTest.testProcessFileForInvalidStartingPosition" />
+        <item itemvalue="JUnit.FileInputProcessorTest.testProcessFileForInvalidMovement" />
+        <item itemvalue="JUnit.FileInputProcessorTest.testProcessFileForInvalidGrid" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.FileInputProcessorTest.testProcessFileForValidInput" />
-        <item itemvalue="JUnit.PositionTest.testCalculateNewPositionMovingOffMap" />
-        <item itemvalue="JUnit.GridTest.testValidateCoordinatesWithNegativeExample" />
-        <item itemvalue="JUnit.GridTest.testValidateCoordinates" />
       </list>
     </recent_temporary>
   </component>
