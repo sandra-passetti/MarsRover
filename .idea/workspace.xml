@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2438161e-a8e0-4f2b-8fb8-3d04d4ebeb05" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MarsRover/com/platform45/marsrover/main/Position.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MarsRover/com/platform45/marsrover/main/Position.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/platform45/marsrover/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/platform45/marsrover/main/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/platform45/marsrover/main/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/platform45/marsrover/main/Position.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/platform45/marsrover/test/PositionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/platform45/marsrover/test/PositionTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +110,7 @@
       <recent name="com.platform45.marsrover.test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PositionTest.testCalculateNewPositionWithInvalidMoveCommands">
+  <component name="RunManager" selected="JUnit.PositionTest.testCalculateNewPosition">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.platform45.marsrover.main.Main" />
       <module name="MarsRover" />
@@ -188,8 +187,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PositionTest.testCalculateNewPositionWithInvalidMoveCommands" />
         <item itemvalue="JUnit.PositionTest.testCalculateNewPosition" />
+        <item itemvalue="JUnit.PositionTest.testCalculateNewPositionWithInvalidMoveCommands" />
         <item itemvalue="JUnit.FileInputProcessorTest.testProcessFileForValidInput" />
         <item itemvalue="JUnit.FileInputProcessorTest.test_JUnit" />
         <item itemvalue="Application.Main" />

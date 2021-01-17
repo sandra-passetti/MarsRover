@@ -4,6 +4,9 @@ import com.platform45.marsrover.main.FileInputProcessor;
 
 import java.io.IOException;
 
+/**
+ * See https://code.google.com/archive/p/marsrovertechchallenge/ for more information.
+ */
 public class Main {
 
     public static void main(String[] args) {
