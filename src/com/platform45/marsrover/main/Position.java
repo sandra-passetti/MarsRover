@@ -1,5 +1,8 @@
 package com.platform45.marsrover.main;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 /**
  * ToDo
  */
@@ -16,12 +19,22 @@ public class Position {
         this.grid = grid;
     }
 
+    private boolean areCommandsValid(String movements){
+        Pattern pattern = Pattern.compile("^[LRM]*$");
+        Matcher matcher = pattern.matcher(movements);
+        return matcher.find();
+    }
+
     public Position calculateNewPosition(String movements) {
         //validate movement commands
-        //update x,y and orientation
-        //check that new positions are within map
-        //return new position
-        return new Position(1,1,'N', null);
+        if (areCommandsValid(movements)) {
+            //update x,y and orientation
+            //check that new positions are within map
+            //return new position
+            return new Position(1,1,'N', null);
+        } else {
+            throw new IllegalArgumentException("Invalid movement sequence provided as input. Please correct your inputs and try again");
+        }
     }
     
 }

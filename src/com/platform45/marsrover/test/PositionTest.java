@@ -23,4 +23,12 @@ public class PositionTest {
         assertEquals(expectedPosition, newPosition);
     }
 
+    @Test(expected = IllegalArgumentException.class)
+    public void testCalculateNewPositionWithInvalidMoveCommands() {
+        Grid grid = new Grid(5,5);
+        Position startingPosition = new Position(1,2, 'N',grid);
+        String moveCommands = "LQLMLMLMM";
+        startingPosition.calculateNewPosition(moveCommands);
+    }
+
 }
