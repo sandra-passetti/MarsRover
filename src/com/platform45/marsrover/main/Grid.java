@@ -17,8 +17,14 @@ public class Grid {
     }
 
     public boolean validateCoordinates(int x_coordinate, int y_coordinate) {
-        //todo: determine if supplied coordinates are within the grid
-        return true;
+        if (x_coordinate >= min_x_coordinate
+                && x_coordinate <= max_x_coordinate
+                && y_coordinate >= min_y_coordinate
+                && y_coordinate <= max_y_coordinate ) {
+            return true;
+        } else {
+            return false;
+        }
     }
 
 

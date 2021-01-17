@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2438161e-a8e0-4f2b-8fb8-3d04d4ebeb05" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/platform45/marsrover/test/GridTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MarsRover/com/platform45/marsrover/main/Position.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MarsRover/com/platform45/marsrover/main/Position.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MarsRover/com/platform45/marsrover/main/Grid.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MarsRover/com/platform45/marsrover/main/Grid.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MarsRover/com/platform45/marsrover/test/PositionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MarsRover/com/platform45/marsrover/test/PositionTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/platform45/marsrover/main/Grid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/platform45/marsrover/main/Grid.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/platform45/marsrover/main/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/platform45/marsrover/main/Position.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/platform45/marsrover/test/PositionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/platform45/marsrover/test/PositionTest.java" afterDir="false" />
     </list>
@@ -15,13 +18,21 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1n4MmbZpYCdRYSjgqRBQKkFYGyw" />
   <component name="ProjectView">
@@ -111,18 +122,8 @@
       <recent name="com.platform45.marsrover.test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PositionTest.testCalculateNewPosition">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.platform45.marsrover.main.Main" />
-      <module name="MarsRover" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FileInputProcessorTest.testProcessFileForValidInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.PositionTest.testCalculateNewPositionMovingOffMap">
+    <configuration name="GridTest.testValidateCoordinates" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MarsRover" />
       <extension name="coverage">
         <pattern>
@@ -131,14 +132,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.platform45.marsrover.test" />
-      <option name="MAIN_CLASS_NAME" value="com.platform45.marsrover.test.FileInputProcessorTest" />
-      <option name="METHOD_NAME" value="testProcessFileForValidInput" />
+      <option name="MAIN_CLASS_NAME" value="com.platform45.marsrover.test.GridTest" />
+      <option name="METHOD_NAME" value="testValidateCoordinates" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileInputProcessorTest.test_JUnit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GridTest.testValidateCoordinatesWithInvalidExample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MarsRover" />
       <extension name="coverage">
         <pattern>
@@ -147,8 +148,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.platform45.marsrover.test" />
-      <option name="MAIN_CLASS_NAME" value="com.platform45.marsrover.test.FileInputProcessorTest" />
-      <option name="METHOD_NAME" value="test_JUnit" />
+      <option name="MAIN_CLASS_NAME" value="com.platform45.marsrover.test.GridTest" />
+      <option name="METHOD_NAME" value="testValidateCoordinatesWithInvalidExample" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GridTest.testValidateCoordinatesWithNegativeExample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MarsRover" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.platform45.marsrover.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.platform45.marsrover.test" />
+      <option name="MAIN_CLASS_NAME" value="com.platform45.marsrover.test.GridTest" />
+      <option name="METHOD_NAME" value="testValidateCoordinatesWithNegativeExample" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -170,7 +187,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PositionTest.testCalculateNewPositionWithInvalidMoveCommands" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PositionTest.testCalculateNewPositionMovingOffMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MarsRover" />
       <extension name="coverage">
         <pattern>
@@ -180,7 +197,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.platform45.marsrover.test" />
       <option name="MAIN_CLASS_NAME" value="com.platform45.marsrover.test.PositionTest" />
-      <option name="METHOD_NAME" value="testCalculateNewPositionWithInvalidMoveCommands" />
+      <option name="METHOD_NAME" value="testCalculateNewPositionMovingOffMap" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -188,11 +205,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PositionTest.testCalculateNewPositionMovingOffMap" />
+        <item itemvalue="JUnit.GridTest.testValidateCoordinatesWithNegativeExample" />
+        <item itemvalue="JUnit.GridTest.testValidateCoordinates" />
+        <item itemvalue="JUnit.GridTest.testValidateCoordinatesWithInvalidExample" />
         <item itemvalue="JUnit.PositionTest.testCalculateNewPosition" />
-        <item itemvalue="JUnit.PositionTest.testCalculateNewPositionWithInvalidMoveCommands" />
-        <item itemvalue="JUnit.FileInputProcessorTest.testProcessFileForValidInput" />
-        <item itemvalue="JUnit.FileInputProcessorTest.test_JUnit" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>

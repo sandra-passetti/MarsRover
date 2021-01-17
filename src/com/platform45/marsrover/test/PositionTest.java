@@ -26,4 +26,12 @@ public class PositionTest {
         startingPosition.calculateNewPosition(moveCommands);
     }
 
+    @Test(expected = IndexOutOfBoundsException.class)
+    public void testCalculateNewPositionMovingOffMap() {
+        Grid grid = new Grid(5,5);
+        Position startingPosition = new Position(1,5, 'N',grid);
+        String moveCommands = "MM";
+        startingPosition.calculateNewPosition(moveCommands);
+    }
+
 }

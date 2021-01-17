@@ -87,10 +87,16 @@ public class Position {
                 }
             }
             //check that new positions are within map
-            //return new position
-            return new Position(x_coordinate, y_coordinate,orientation, grid);
+            if (grid.validateCoordinates(x_coordinate, y_coordinate)) {
+                //return new position
+                return new Position(x_coordinate, y_coordinate,orientation, grid);
+            } else {
+                throw new IndexOutOfBoundsException("Requested movement sequence leads to a position outside the grid boundaries. " +
+                        "Please correct your inputs and try again");
+            }
         } else {
-            throw new IllegalArgumentException("Invalid movement sequence provided as input. Please correct your inputs and try again");
+            throw new IllegalArgumentException("Invalid movement sequence provided as input. " +
+                    "Please correct your inputs and try again");
         }
     }
     
