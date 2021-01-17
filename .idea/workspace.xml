@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2438161e-a8e0-4f2b-8fb8-3d04d4ebeb05" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/platform45/marsrover/Grid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/platform45/marsrover/Position.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/platform45/marsrover/Rover.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/invalidFileFormat.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/invalidGrid.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/invalidMovementRequest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/invalidStartingPosition.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/validInputExample.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
