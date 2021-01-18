@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2438161e-a8e0-4f2b-8fb8-3d04d4ebeb05" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/platform45/marsrover/test/FileInputProcessorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/platform45/marsrover/test/FileInputProcessorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/platform45/marsrover/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/platform45/marsrover/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,11 +120,10 @@
       <recent name="com.platform45.marsrover.test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FileInputProcessorTest.testForLongMovementStringAndSmallGrid">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.platform45.marsrover.main.Main" />
       <module name="MarsRover" />
-      <option name="PROGRAM_PARAMETERS" value="./resources/smallGridManyMoves.txt" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.platform45.marsrover.main.*" />
@@ -205,11 +204,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FileInputProcessorTest.testForLongMovementStringAndSmallGrid" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.FileInputProcessorTest" />
+        <item itemvalue="JUnit.FileInputProcessorTest.testForLongMovementStringAndSmallGrid" />
         <item itemvalue="JUnit.GridTest" />
         <item itemvalue="JUnit.PositionTest" />
-        <item itemvalue="JUnit.FileInputProcessorTest" />
       </list>
     </recent_temporary>
   </component>

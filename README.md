@@ -22,6 +22,12 @@ written on it. This opens a menu.
    be the path to the file you want to use as input. You can use any
    of the test files provided in "resources" or choose your own.
    An example is "./resources/validInputExample.txt".
+   If you would like to see a rover map, showing the final position of
+   all the Mars rovers, add "true" as the second parameter. An example is
+   "./resources/smallGridManyMoves.txt true"
 5. Click Apply and close the popup.
 6. Run Main using the green play button.
 
+#Testing
+This implementation has been tested to work with multiple rovers,
+large grids (e.g. 1000 , 1000) and long sequences of moves (350+).
