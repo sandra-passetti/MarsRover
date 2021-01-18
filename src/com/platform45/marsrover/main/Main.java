@@ -30,7 +30,7 @@ public class Main {
                 ArrayList<Rover> rovers = FileInputProcessor.processFile(args[0]);
                 printRovers(rovers);
                 if (Boolean.parseBoolean(args[1])) {
-                    //render the grid with final locations of the mars rovers graphically
+                    //render the grid with final locations of the mars rovers
                     RoverMap roverMap = new RoverMap(rovers);
                     roverMap.renderMap();
                 }

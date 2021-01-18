@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2438161e-a8e0-4f2b-8fb8-3d04d4ebeb05" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MarsRover/com/platform45/marsrover/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MarsRover/com/platform45/marsrover/main/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/platform45/marsrover/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/platform45/marsrover/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
