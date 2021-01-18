@@ -23,5 +23,8 @@ public class Grid {
                 && y_coordinate <= max_y_coordinate;
     }
 
+    public int getMaxXCoordinate() { return max_x_coordinate; }
+
+    public int getMaxYCoordinate() { return max_y_coordinate; }
 
 }

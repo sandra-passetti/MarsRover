@@ -45,6 +45,8 @@ public class Position {
         return orientation;
     }
 
+    public Grid getGrid() { return grid; }
+
     private boolean areCommandsValid(String movements){
         Pattern pattern = Pattern.compile("^[LRM]*$");
         Matcher matcher = pattern.matcher(movements);

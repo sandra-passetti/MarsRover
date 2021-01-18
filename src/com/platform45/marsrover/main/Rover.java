@@ -16,6 +16,8 @@ public class Rover {
         return position;
     }
 
+    public Grid getGrid() { return position.getGrid(); }
+
     public void setPosition(Position newPosition){
         position = newPosition;
     }

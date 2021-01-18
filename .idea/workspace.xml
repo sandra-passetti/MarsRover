@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2438161e-a8e0-4f2b-8fb8-3d04d4ebeb05" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/platform45/marsrover/main/RoverMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MarsRover/com/platform45/marsrover/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MarsRover/com/platform45/marsrover/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/platform45/marsrover/main/Grid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/platform45/marsrover/main/Grid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/platform45/marsrover/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/platform45/marsrover/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/platform45/marsrover/main/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/platform45/marsrover/main/Position.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/platform45/marsrover/main/Rover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/platform45/marsrover/main/Rover.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,11 +126,11 @@
       <recent name="com.platform45.marsrover.test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FileInputProcessorTest.testForLongMovementStringAndSmallGrid">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.platform45.marsrover.main.Main" />
       <module name="MarsRover" />
-      <option name="PROGRAM_PARAMETERS" value="./resources/smallGridManyMoves.txt" />
+      <option name="PROGRAM_PARAMETERS" value="./resources/stressTest.txt true" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.platform45.marsrover.main.*" />
@@ -206,11 +211,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FileInputProcessorTest.testForLongMovementStringAndSmallGrid" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.FileInputProcessorTest" />
+        <item itemvalue="JUnit.FileInputProcessorTest.testForLongMovementStringAndSmallGrid" />
         <item itemvalue="JUnit.GridTest" />
         <item itemvalue="JUnit.PositionTest" />
-        <item itemvalue="JUnit.FileInputProcessorTest" />
       </list>
     </recent_temporary>
   </component>
