@@ -12,22 +12,32 @@ import java.util.ArrayList;
  */
 public class Main {
 
+    private static void printRovers(ArrayList<Rover> rovers) {
+        for (Rover rover: rovers) {
+            System.out.println("Rover #" + rover.getIdentifier()+ " is at position "
+                    + rover.getPosition().getX_Coordinate() + " "
+                    + rover.getPosition().getY_Coordinate() + " "
+                    + rover.getPosition().getOrientation());
+        }
+    }
+
     public static void main(String[] args) {
         try {
-            ArrayList<Rover> rovers = FileInputProcessor.processFile(args[0]);
-
-            for (Rover rover: rovers) {
-                System.out.println("Rover #" + rover.getIdentifier()+ " is at position "
-                        + rover.getPosition().getX_Coordinate() + " "
-                        + rover.getPosition().getY_Coordinate() + " "
-                        + rover.getPosition().getOrientation());
+            if (args.length == 1) {
+                ArrayList<Rover> rovers = FileInputProcessor.processFile(args[0]);
+                printRovers(rovers);
+            } else if (args.length == 2) {
+                ArrayList<Rover> rovers = FileInputProcessor.processFile(args[0]);
+                printRovers(rovers);
+                if (Boolean.parseBoolean(args[1])) {
+                    //render the grid with final locations of the mars rovers graphically
+                    RoverMap roverMap = new RoverMap(rovers);
+                    roverMap.renderMap();
+                }
+            } else {
+                System.err.println("Please provide one or two arguments to run MarsRover with.");
             }
 
-            if (Boolean.parseBoolean(args[1])) {
-                //render the grid with final locations of the mars rovers graphically
-                RoverMap roverMap = new RoverMap(rovers);
-                roverMap.renderMap();
-            }
         } catch (Exception ex) {
             //All exceptions in the system bubble up to this point
             System.err.println(ex.getMessage());
